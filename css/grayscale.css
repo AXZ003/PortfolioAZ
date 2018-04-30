@@ -933,6 +933,6 @@ textarea.input2 + .focus-input2::after {
 
 .social-media {
 
-  width: 10%;
-  height: auto;
+  width: 54px;
+  height: 54px;
 }
