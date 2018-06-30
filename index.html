@@ -27,58 +27,51 @@
     <div class="container" id="sideName">
       <h3 class="brand-heading">Andrea Zepeda</h3>
     </div>
+
     <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              
-              <h1 class="intro-text">Hello! I'm Andrea</h1>
-                <h2 class="intro-bottom"> Media buyer, project manager & full stack development student</h2>
-              
-                <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
-            </div>
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">             
+            <h1 class="intro-text">Hello! I'm Andrea</h1>
+            <h2 class="intro-bottom"> Media buyer, project manager & full stack development student</h2>            
+            <a href="#about" class="btn btn-circle js-grrl-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-       <!-- Navigation -->
-       <nav class="navbar navbar-expand-lg navbar-light fixed-bottom" id="mainNav">
-          <div class="container" id="navLeft">
-            
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              
-              <i class="fa fa-bars"></i>
-            </button>
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-bottom" id="mainNav">
+        <div class="container" id="navLeft">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto navbar-center">
-
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" id="home-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" id="about-link" href="#about">About</a>
-                </li>
-
-
-         
-
-
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" id="work-link" href="#download">Work</a>
-                </li>   
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" id="contact-link" href="#contact">Contact</a>
-                </li>
-                
-              </ul>
+            <ul class="navbar-nav ml-auto navbar-center">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="home-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="about-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="work-link" href="#download">Work</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="contact-link" href="#resume">Resume</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" id="contact-link" href="#contact">Contact</a>
+              </li>               
+            </ul>
             </div>
-          </div>
-        </nav>
+        </div>
+      </nav>
 
         
 
@@ -115,34 +108,239 @@
               <div class="hvrbox">
                 <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
                 <div class="hvrbox-layer_top">
-                  <div class="hvrbox-text">Countries Collector</div>
+                  <div class="hvrbox-text">   
+                    <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#countriesModal">
+                      Countries Collector
+                    </button>
+                  </div> 
+                </div>
+              </div>
+
+              <!-- Countries Collector Modal -->
+              <div class="modal fade" id="countriesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Countries Collector</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">GitHub</button>
+                      <button type="button" class="btn btn-primary">Live Link</button>
+                    </div>
+                  </div>
                 </div>
               </div>
 <!-- work box 2 -->
               <div class="hvrbox">
                   <img src="img/header3.jpg" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
-                    <div class="hvrbox-text">LitFlix</div>
+                    <div class="hvrbox-text">
+                      <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#litModal">
+                        LitFlix
+                      </button>
+                    </div>
+                    
                   </div>
               </div>
+                <!-- LitFlix Collector Modal -->
+                <div class="modal fade" id="litModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">LitFlix</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">GitHub</button>
+                        <button type="button" class="btn btn-primary">Live Link</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 <!-- work box 3 -->
               <div class="hvrbox">
                   <img src="img/header3.jpg" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
-                    <div class="hvrbox-text">Train Time</div>
+                    <div class="hvrbox-text">
+                      <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#trainModal">
+                        Train Time
+                      </button>
+                    </div>                  
                   </div>
               </div>
+              <!-- Train Time Collector Modal -->
+              <div class="modal fade" id="trainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Train Time</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">GitHub</button>
+                      <button type="button" class="btn btn-primary">Live Link</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+     
+              
 <!-- work box 4 -->
               <div class="hvrbox">
                   <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
-                    <div class="hvrbox-text">Favorite Celebs</div>
+                    <div class="hvrbox-text">
+                      <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#celebsModal">
+                        Favorite Celebs
+                      </button>
+                    </div>    
                   </div>
               </div>
+
+              <!--  Fav Celebs Collector Modal -->
+              <div class="modal fade" id="celebsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Favorite Celebs</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">GitHub</button>
+                      <button type="button" class="btn btn-primary">Live Link</button>
+                    </div>
+                  </div>
+                </div>
+              </div>     
+<!-- work box 5 -->
+              <div class="hvrbox">
+                <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                  <div class="hvrbox-text">
+                    <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#finanzaModal">
+                      Finanza
+                    </button>
+                  </div>                
+                </div>
+              </div>
+
+              <!--  Finanza Collector Modal -->
+              <div class="modal fade" id="finanzaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Finanza</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"><a href="https://github.com/prose34/Finance_Project2">GitHub Code</href></a></button>
+                    <button type="button" class="btn btn-primary">Live Link</button>
+                  </div>
+                </div>
+              </div>
+              </div>                
+<!-- work box 6 -->
+              <div class="hvrbox">
+                <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                  <div class="hvrbox-text">
+                    <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#otherModal">
+                      OTHER...
+                    </button>
+                  </div>                 
+                </div>
+              </div>
+
+              <!--  Other Modal -->
+              <div class="modal fade" id="otherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Other</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">GitHub</button>
+                    <button type="button" class="btn btn-primary">Live Link</button>
+                  </div>
+                </div>
+              </div>
+              </div> 
+
+     </div>
+   </div>
+  </section>
+
+
+
+    <!-- Resume -->
+    <section id="resume" class="content-section text-center">
+    <!-- <header class="masthead2"> -->
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">             
               
+              <h1 class="intro-text">Past Experiences</h1>
+              <!-- <img src="img/desktop.jpg"/> -->
+              <!-- <h2 class="intro-bottom"> Media buyer, project manager & full stack development student</h2> -->
+              <!-- Button trigger modal -->
+              <button type="button" id="modalBtn" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                Resume
+              </button>
+          </div>
         </div>
       </div>
-    </section>
+    <!-- </header> -->
+
+    <!-- Large modal -->
+  
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="width:700px; height:600px;">
+          <div style="text-align: center;">
+            <iframe src="img/AndreaZepedaResume.pdf#zoom=70" 
+            style="width:799px; height:600px;" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="closeBtn" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Contact Section -->
 
@@ -214,16 +412,6 @@
     
 
 
-    <!-- Map Section
-    <div id="map"></div> -->
-
-    <!-- Footer -->
-    <!-- <footer>
-      <div class="container text-center">
-        <p>Andrea Zepeda</p>
-      </div>
-    </footer> -->
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -231,12 +419,12 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <!-- <script src="js/grayscale.min.js"></script> -->
+
+    <!-- Materialize JS -->
+  
+    
 
   </body>
-
 </html>

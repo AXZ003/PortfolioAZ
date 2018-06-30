@@ -1,3 +1,10 @@
+/* ! important - button id use it to change the color
+#andrea{
+background-color: red!important
+}
+*/
+
+
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
@@ -232,7 +239,7 @@ a:focus, a:hover {
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     letter-spacing: 1px;
     border-bottom: none;
-    background: transparent;
+    background: white;
     
   }
   #mainNav.navbar-shrink {
@@ -255,6 +262,7 @@ a:focus, a:hover {
 	}
 }
 
+/* About Me Header */
 .masthead {
   display: table;
   width: 70%;
@@ -273,6 +281,59 @@ a:focus, a:hover {
   margin-top: 30px;
 }
 
+/* Resume */
+
+/* .masthead2 {
+  display: table;
+  width: 70%;
+  height: auto;
+  padding: 200px 0; */
+  /* padding-top: 100px; */
+  /* text-align: center;
+  color: whitesmoke;
+  background: url("img/desktop.jpg");
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+  margin-top: 30px;
+} */
+
+#resume {
+  display: table;
+  width: 70%;
+  height: auto;
+  padding: 200px 0;
+  /* padding-top: 100px; */
+  text-align: center;
+  color: whitesmoke;
+  background: url("img/desktop.jpg")no-repeat bottom center scroll;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+
+#modalBtn {
+  background-color: #e1b3ba;
+  border-color: white;
+}
+
+.modal-title{
+  color: black;
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: none;
+  color: #ddb5ba;
+}
+
+#closeBtn {
+  color: #e1b3ba;
+  border-color: #e1b3ba;
+}
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -382,16 +443,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: white;
+  border: 1px solid white;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid white;
   outline: none;
-  background-color: #42DCA3;
+  background-color: white;
 }
 
 ul.banner-social-buttons {
@@ -479,7 +540,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #57b846;
+	color: white;
 }
 
 /*---------------------------------------------*/
@@ -871,7 +932,10 @@ textarea.input2 + .focus-input2::after {
   color: black
 }
 .hvrbox * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: transparent;
+  border-color: transparent;
 }
 .hvrbox {
 	position: relative;
@@ -936,3 +1000,9 @@ textarea.input2 + .focus-input2::after {
   width: 54px;
   height: 54px;
 }
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
