@@ -522,6 +522,8 @@ img::-moz-selection {
 
 
 /*---------------------------------------------*/
+
+/* MODAL BUTTON */
 a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
@@ -543,6 +545,11 @@ a:hover {
 	color: white;
 }
 
+#gitCode {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #e9cdd1;
+  color: white;
+}
 /*---------------------------------------------*/
 /* h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
@@ -1004,5 +1011,9 @@ textarea.input2 + .focus-input2::after {
 .btn-primary:hover {
   background-color: transparent;
   border-color: transparent;
+}
+
+.btn-primary {
+  border-color: #6c757d;
 }
 
