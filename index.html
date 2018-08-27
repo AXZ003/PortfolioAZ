@@ -21,11 +21,16 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- Animate.css -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- <link rel="stylesheet" href="animate.min.css"> -->
+
   </head>
 
   <body id="page-top">
     <div class="container" id="sideName">
-      <h3 class="brand-heading">Andrea Zepeda</h3>
+      <h3 class="brand-heading">ANDREA ZEPEDA</h3>
     </div>
 
     <!-- Intro Header -->
@@ -34,8 +39,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">             
-            <h1 class="intro-text">Hello! I'm Andrea</h1>
-            <h2 class="intro-bottom"> Media buyer, project manager & full stack development student</h2>            
+            
+
+              <li class="animated fadeInDownBig">
+                  <img class="introIMG" src="./img/port.png" alt="IntroImg"/>   
+              </li>           
+            
             <a href="#about" class="btn btn-circle js-grrl-trigger">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -81,15 +90,17 @@
         <div class="row" id="aboutCont" style="background-color: #D3F2EA">
           <div class="col-lg-8 mx-auto">
             <div id="about-container">
-            <h2 class="aboutMe">About Andrea</h2>
+            <h2 class="aboutMe">ABOUT ANDREA</h2>
             <img class="headshot" src="img/Andrea.jpg" alt="AZ_Headshot">
             <p class="aboutPara">
-                Hey there, I’m Andrea! I’m a twenty-something living the Dallas life. Originally born & somewhat raised in Mexico City but moved back and forth from Canada and Mexico until my high school years. I attended the University of Arkansas where I double majored in Spanish & Journalism with a double emphasis in Advertising & Public Relations + a minor in Marketing and Latino Studies. 
+                Hey there, I’m Andrea! I’m a twenty-four, young professional living in  Dallas, Texas. I am a graduate of the University of Arkansas with a Bachelor of Arts and Sciences in Spanish & Journalism with a double concentration in News/Editorial & Advertising & Public Relations + a minor in Marketing and Latino Studies. 
                 <br>   
                 <br>
-                My current day job consists of media buying + project management at Ivie & Associates. I love both my broadcast & digital team! I'm a person who is passionate about her career & learning, you can find me taking courses outside of my eight-to-five. I am currently exploring the tech world by taking a full-stack development course at SMU. 
+                My background includes two years of experience in media buying + project management at Ivie & Associates.  One year of experience in influencer marketing as an intern at Collective Bias & one year experience as a digital strategist intern at Mockingbird Creative. I'm a person who is passionate about her career & learning, you can find me taking courses outside of my eight-to-five. I'm currently furthering my education by taking a full-stack web development course at SMU. 
                 
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">a</a>.</p>
+              <!-- <a href="http://startbootstrap.com/template-overviews/grayscale/">a</a> -->
+      
+              </p>
             </div>
           </div>
         </div>
@@ -102,11 +113,77 @@
     <section id="download" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-12 mx-auto" style="background-color:white";>
-          <h2 class="portfolio-title">Work</h2>
+          <h2 class="portfolio-title">WORK</h2>
 
 <!-- work box 1 -->
+          <div class="hvrbox">
+            <img src="img/stylemytravels.png" alt="" class="hvrbox-layer_bottom">
+            <div class="hvrbox-layer_top">
+              <div class="hvrbox-text">
+                <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#otherModal">
+                  Style My Travel
+                </button>
+              </div>                 
+            </div>
+          </div>
+
+          <!--  Style My Travel Modal -->
+          <div class="modal fade" id="otherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Other</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/travel-app">GitHub Code</href></a></button>
+                <button type="button" id="gitCode" class="btn btn-primary"><a href="https://style-my-travel.herokuapp.com/">Live Link</href></a></button>
+              </div>
+            </div>
+          </div>
+          </div> 
+
+<!-- work box 2 -->
+                <div class="hvrbox">
+                  <img src="img/Finanza.png" alt="Finanza" class="hvrbox-layer_bottom">
+                  <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">
+                      <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#finanzaModal">
+                        Finanza
+                      </button>
+                    </div>                
+                  </div>
+                </div>
+
+                <!--  Finanza Collector Modal -->
+                <div class="modal fade" id="finanzaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Finanza</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/Finance_Project2">GitHub Code</href></a></button>
+                      <button type="button" id="gitCode" class="btn btn-primary"><a href="https://guarded-escarpment-35979.herokuapp.com/">Live Link</href></a></button>
+                    </div>
+                  </div>
+                </div>
+                </div>  
+
+<!-- work box 3 -->
               <div class="hvrbox">
-                <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
+                <img src="img/cc.png" alt="" class="hvrbox-layer_bottom">
                 <div class="hvrbox-layer_top">
                   <div class="hvrbox-text">   
                     <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#countriesModal">
@@ -136,9 +213,9 @@
                   </div>
                 </div>
               </div>
-<!-- work box 2 -->
+<!-- work box 3 -->
               <div class="hvrbox">
-                  <img src="img/header3.jpg" alt="" class="hvrbox-layer_bottom">
+                  <img src="img/Litflix.png" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
                     <div class="hvrbox-text">
                       <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#litModal">
@@ -162,24 +239,24 @@
                         ...
                       </div>
                       <div class="modal-footer">
-                        <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/Lit-Flix-Project1">GitHub Code</href></a></button>
-                        <button type="button" id="gitCode" class="btn btn-primary"><a href="....">Live Link</href></a></button>
+                        <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/Lit-Flix">GitHub Code</href></a></button>
+                        <button type="button" id="gitCode" class="btn btn-primary"><a href="https://axz003.github.io/Lit-Flix/">Live Link</href></a></button>
                       </div>
                     </div>
                   </div>
                 </div>
-<!-- work box 3 -->
+<!-- work box 4 -->
               <div class="hvrbox">
-                  <img src="img/header3.jpg" alt="" class="hvrbox-layer_bottom">
+                  <img src="img/click.png" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
                     <div class="hvrbox-text">
                       <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#trainModal">
-                        Train Time
+                        Harry Potter Memory Game
                       </button>
                     </div>                  
                   </div>
               </div>
-              <!-- Train Time Collector Modal -->
+              <!-- Harry Potter Modal -->
               <div class="modal fade" id="trainModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -193,8 +270,8 @@
                       ...
                     </div>
                     <div class="modal-footer">
-                      <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/train-time">GitHub Code</href></a></button>
-                      <button type="button" id="gitCode" class="btn btn-primary"><a href="https://axz003.github.io/train-time/">Live Link</href></a></button>
+                      <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/AXZ003/click-game">GitHub Code</href></a></button>
+                      <button type="button" id="gitCode" class="btn btn-primary"><a href="https://sleepy-tor-76041.herokuapp.com/">Live Link</href></a></button>
                     </div>
                   </div>
                 </div>
@@ -202,9 +279,9 @@
 
      
               
-<!-- work box 4 -->
+<!-- work box 5 -->
               <div class="hvrbox">
-                  <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
+                  <img src="img/favceleb.png" alt="" class="hvrbox-layer_bottom">
                   <div class="hvrbox-layer_top">
                     <div class="hvrbox-text">
                       <button type="button" id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#celebsModal">
@@ -234,70 +311,8 @@
                   </div>
                 </div>
               </div>     
-<!-- work box 5 -->
-              <div class="hvrbox">
-                <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
-                <div class="hvrbox-layer_top">
-                  <div class="hvrbox-text">
-                    <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#finanzaModal">
-                      Finanza
-                    </button>
-                  </div>                
-                </div>
-              </div>
+              
 
-              <!--  Finanza Collector Modal -->
-              <div class="modal fade" id="finanzaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Finanza</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" id="gitCode" class="btn btn-secondary"><a href="https://github.com/prose34/Finance_Project2">GitHub Code</href></a></button>
-                    <button type="button" id="gitCode" class="btn btn-primary"><a href="https://guarded-escarpment-35979.herokuapp.com/">Live Link</href></a></button>
-                  </div>
-                </div>
-              </div>
-              </div>                
-<!-- work box 6 -->
-              <div class="hvrbox">
-                <img src="img/header2.jpg" alt="" class="hvrbox-layer_bottom">
-                <div class="hvrbox-layer_top">
-                  <div class="hvrbox-text">
-                    <button type="button"  id="workBoxBtn" class="btn btn-primary" data-toggle="modal" data-target="#otherModal">
-                      OTHER...
-                    </button>
-                  </div>                 
-                </div>
-              </div>
-
-              <!--  Other Modal -->
-              <div class="modal fade" id="otherModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Other</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" id="gitCode" class="btn btn-secondary"><a href="....">GitHub Code</href></a></button>
-                    <button type="button" id="gitCode" class="btn btn-primary"><a href="....">Live Link</href></a></button>
-                  </div>
-                </div>
-              </div>
-              </div> 
 
      </div>
    </div>
@@ -313,7 +328,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">             
               
-              <h1 class="intro-text">Past Experiences</h1>
+              <h1 class="intro-text">PAST EXPERIENCES</h1>
               <!-- <img src="img/desktop.jpg"/> -->
               <!-- <h2 class="intro-bottom"> Media buyer, project manager & full stack development student</h2> -->
               <!-- Button trigger modal -->
@@ -349,10 +364,12 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-6" id="leftside"style="background-color:white;">
-                    <h2>Get in touch.</h2>
-                    <p class="contactInfo">  Let's work together! Fill out the info on the right & leave me a message, I'd love to hear from you!</p>
-                    <p class="numbers"><strong>ph:</strong> 469-877-4712</p> 
-                    <p class="email"><strong>e:</strong> andreazepeda003@gmail.com</p> 
+                    <h2>GET IN TOUCH.</h2>
+                    <p class="contactInfo">  Let's work together! Fill out the info on the right & send me a message, I'd love to hear from you!</p>
+                    <br>
+                    <p class="contactInfo"> Or feel free to peep me on any social media!</p>
+                    <!-- <p class="numbers"><strong>ph:</strong> 469-877-4712</p> 
+                    <p class="email"><strong>e:</strong> andreazepeda003@gmail.com</p>  -->
                     <br>
                     <a href="https://github.com/AXZ003" target="blank"> <img class="social-media" src="img/github.jpg" alt="github"></a>
                     <a href="https://www.linkedin.com/in/axz003"target="blank"><img class="social-media" src="img/linkedin.jpg" alt="linkedIn"></a>

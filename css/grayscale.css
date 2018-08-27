@@ -4,14 +4,25 @@ background-color: red!important
 }
 */
 
+@font-face {
+
+
+  font-family: tokyoRegular;
+  src: url(./TTF/TokyoRegular-Regular.ttf);
+
+
+}
+
 
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
+  /* font-family: tokyoRegular; */
   color: white;
   background-color: white;
+ 
 }
 
 #sideName{
@@ -59,9 +70,16 @@ body {
 
 .intro-text {
   font-size: 50px;
+  
+}
+.introIMG {
+  position: relative;
+  right: 170px;
+  top: -20px;
 }
 .intro-bottom {
-  opacity: .9;
+  opacity: 1;
+
 }
 
 html {
@@ -74,10 +92,12 @@ html {
   color: black;
   margin: 0px;
   padding-bottom: 25px;
+  position: relative;
+  left: 145px;
 }
 
 .aboutPara {
-  width: 850px;
+  width: 880px;
   height: 400px;
   position: relative;
   left: 70px ;
@@ -90,7 +110,7 @@ html {
   height: auto;
   border-radius: 50%;
   position: relative;
-  top: 9px;
+  top: -20px;
   right: -40px;
   float: left;
  
@@ -126,7 +146,7 @@ h6 {
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 
@@ -143,6 +163,8 @@ p {
   line-height: 1.5;
   margin: 0 0 10px;
   color: black;
+  /* color: #a39999 !important; */
+
 }
 
 @media (min-width: 768px) {
@@ -272,6 +294,7 @@ a:focus, a:hover {
   text-align: center;
   color: whitesmoke;
   background: url("img/coffee1.jpg") no-repeat bottom center scroll;
+ 
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -389,7 +412,7 @@ a:focus, a:hover {
   border-radius: 100% !important;
   background: transparent;
   position: relative;
-  top: 70px;
+  top: 50px;
   right: 0px;
 }
 
@@ -937,6 +960,7 @@ textarea.input2 + .focus-input2::after {
 /* Portfolio Hover Boxes */
 .portfolio-title {
   color: black
+  /* color: #a39999 !important; */
 }
 .hvrbox * {
   box-sizing: border-box;
