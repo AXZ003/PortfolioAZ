@@ -1,4 +1,4 @@
-# Andrea Zepeda - Digital Portfolio. 
+# Andrea Zepeda Digital Portfolio. 
 
 View my portfolio [here](https://axz003.github.io/PortfolioAZ/). 
 
