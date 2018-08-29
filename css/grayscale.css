@@ -60,7 +60,6 @@ body {
   padding-left: 130px;
   padding-right: 130px;
  
-
 }
 
 /* Home Center text */
@@ -336,7 +335,18 @@ a:focus, a:hover {
 
 @media screen and (max-width: 576px) {
   .wrap-contact2 {
-    padding: 72px 15px 90px 15px;
+    padding: 10px 15px 70px 15px;
+  }
+
+  #rightside {
+
+    color: black;
+    width: 580px;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 130px;
+
   }
 
 
@@ -499,7 +509,7 @@ a:focus, a:hover {
   }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 514px)  { 
+@media only screen and (max-width: 767px) and (min-width: 350px)  { 
 
   /* header section */
 
@@ -562,6 +572,12 @@ a:focus, a:hover {
     position: relative;
     right: 110px;
   }
+
+  .pastExp {
+    position: relative;
+    top: 280px;
+  }
+  
 }
 
 
