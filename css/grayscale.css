@@ -6,11 +6,8 @@ background-color: red!important
 
 @font-face {
 
-
   font-family: tokyoRegular;
   src: url(./TTF/TokyoRegular-Regular.ttf);
-
-
 }
 
 
@@ -116,7 +113,6 @@ html {
  
 }
 #aboutCont {
-
   width: 1010px;
   height: 500px;
   margin-right: 20px;
@@ -130,8 +126,6 @@ html {
   height: 500px;
   position: relative;
   right: 184px;
-
- 
 }
 
 
@@ -167,14 +161,7 @@ p {
 
 }
 
-@media (min-width: 768px) {
-  p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0 0 15px;
-    color: black;
-  }
-}
+
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
@@ -252,37 +239,7 @@ a:focus, a:hover {
 
 
 
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    letter-spacing: 1px;
-    border-bottom: none;
-    background: white;
-    
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black(255, 255, 255, 0.3);
-    background: white;
- 
-  }
-  #mainNav .nav-link.active {
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  #mainNav .nav-link.active:hover {
-    color: black;
-     /* // white */
-  }
-  .navbar-nav {
-		float: none;
-	}
-}
+
 
 /* About Me Header */
 .masthead {
@@ -374,10 +331,26 @@ a:focus, a:hover {
   font-size: 18px;
 }
 
-/* contact form */
+/*------------------------------------------------------------------
+[ Responsive ]*/
 
+@media screen and (max-width: 576px) {
+  .wrap-contact2 {
+    padding: 72px 15px 90px 15px;
+  }
+
+
+}
 
 @media (min-width: 768px) {
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 15px;
+    color: black;
+  }
+
   .masthead {
     height: 100%;
     padding: 0;
@@ -393,10 +366,216 @@ a:focus, a:hover {
       font-size: 50px;
     
   }
-  .brand-heading {
+
+}
+
+.brand-heading {
   transform: rotate(270deg);
+}
+
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
   }
 }
+
+
+@media (min-width: 992px) {
+
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .content-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* used to be at 200px */
+  }
+
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: white;
+    
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black(255, 255, 255, 0.3);
+    background: white;
+ 
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: black;
+     /* // white */
+  }
+  .navbar-nav {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 1277px) and (min-width: 375px)  { 
+  #sideName {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  { 
+
+  /* header section */
+  .introIMG {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    height: 250px;
+    width: 680px;
+  }
+  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  /* about me section */
+
+  .headshot {
+ 
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    right: -120px;
+    float: left;
+  }
+
+  .aboutPara {
+    width: 650px;
+    height: 300px;
+    position: relative;
+    left: 130px ;
+    margin: 0px;
+    letter-spacing: -.3px;
+    font-size: 17px;
+  }
+
+  /* H2 ABOUT ANDREA */
+  .aboutMe { 
+    color: black;
+    margin: 0px;
+    padding-bottom: 25px;
+    position: relative;
+    left: 0px;
+  }
+
+  #aboutCont {
+    width: 710px;
+    height: 500px;
+  
+    margin-left: -10px;
+  }
+  
+  #about-container {
+  
+    padding-top: 30px;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    right: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 514px)  { 
+
+  /* header section */
+
+  .introIMG {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    height: 150px;
+    width: 480px;
+  }
+  .intro-body {
+    display: table-caption;
+    vertical-align: middle;
+  }
+
+  /* about me section */
+
+  .headshot {
+ 
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    right: -120px;
+    float: left;
+  }
+
+  .aboutPara {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    left: 130px ;
+    margin: 0px;
+    letter-spacing: -.3px;
+    font-size: 15px;
+  }
+
+  /* H2 ABOUT ANDREA */
+  .aboutMe { 
+    color: black;
+    margin: 0px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 0px;
+  }
+
+  #aboutCont {
+    width: 510px;
+    height: 500px;
+  
+    margin-left: 0px;
+  }
+  
+  #about-container {
+  
+    padding-top: 30px;
+    width: 700px;
+    /* height: 500px; */
+    position: relative;
+    right: 110px;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+
+/* -------------------------------------------------- */
+
+/* contact form */
+
+
 
 .btn-circle {
   font-size: 26px;
@@ -446,14 +625,7 @@ a:focus, a:hover {
   height: 300px;
 } */
 
-@media (min-width: 992px) {
-  .content-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    /* used to be at 200px */
-  }
- 
-}
+
 
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -482,26 +654,8 @@ ul.banner-social-buttons {
   margin-top: 0;
 }
 
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
-}
 
-@media (max-width: 767px) {
-  ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }
-}
-
-
-
-
+/*  */
 
 footer {
   padding: 50px 0;
@@ -879,15 +1033,6 @@ textarea.input2 + .focus-input2::after {
   left: 0;
 }
 
-/*------------------------------------------------------------------
-[ Responsive ]*/
-
-@media (max-width: 576px) {
-  .wrap-contact2 {
-    padding: 72px 15px 90px 15px;
-  }
-}
-
 
 
 /*------------------------------------------------------------------
@@ -948,13 +1093,6 @@ textarea.input2 + .focus-input2::after {
 .alert-validate:hover:before {
   visibility: visible;
   opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
 }
 
 /* Portfolio Hover Boxes */
