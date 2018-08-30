@@ -330,6 +330,11 @@ a:focus, a:hover {
   font-size: 18px;
 }
 
+/* WORK BOXES */
+.modal-body{
+  color: black;
+}
+
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
