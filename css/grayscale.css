@@ -34,6 +34,8 @@ body {
 /* Side Name */
 
 .brand-heading{
+
+  font-family: 'tokyoRegular';
   position: fixed;
   left: -4px;
   top: 312px;
@@ -372,7 +374,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 50px;
+    font-size: 80px;
   }
   .masthead .intro-body  {
     font-size: 22px;
