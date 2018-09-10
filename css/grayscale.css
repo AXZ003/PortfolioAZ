@@ -87,13 +87,14 @@ html {
 .aboutMe {
   color: black;
   margin: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   position: relative;
   left: 145px;
 }
 
 .aboutPara {
-  width: 880px;
+  font-size: 17px;
+  width: 920px;
   height: 400px;
   position: relative;
   left: 70px ;
@@ -102,7 +103,7 @@ html {
   letter-spacing: -.3px;
 }
 .headshot {
-  max-width: 30%;
+  max-width: 25%;
   height: auto;
   border-radius: 50%;
   position: relative;
@@ -479,20 +480,21 @@ a:focus, a:hover {
   }
 
   .aboutPara {
+  
     width: 650px;
     height: 300px;
     position: relative;
     left: 130px ;
     margin: 0px;
     letter-spacing: -.3px;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   /* H2 ABOUT ANDREA */
   .aboutMe { 
     color: black;
     margin: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     position: relative;
     left: 0px;
   }
@@ -544,13 +546,14 @@ a:focus, a:hover {
   }
 
   .aboutPara {
+  
     width: 450px;
     height: 300px;
     position: relative;
     left: 130px ;
     margin: 0px;
     letter-spacing: -.3px;
-    font-size: 15px;
+    font-size: 13.3px;
   }
 
   /* H2 ABOUT ANDREA */
