@@ -8,6 +8,9 @@ background-color: red!important
 
   font-family: tokyoRegular;
   src: url(./TTF/TokyoRegular-Regular.ttf);
+
+  font-family: autumnChant;
+  src: url(./TTF/AutumnChant.otf);
 }
 
 
@@ -34,10 +37,11 @@ body {
 /* Side Name */
 
 .brand-heading{
-
-  font-family: 'tokyoRegular';
+  text-transform: lowercase !important;
+  font-size: 45px;
+  font-family: 'autumnChant';
   position: fixed;
-  left: -4px;
+  left: -140px;
   top: 312px;
   /* margin-top: 270px; */
  
@@ -45,6 +49,11 @@ body {
 
  /* Contact Me Containers */
 
+/* .getInTouch {
+
+  font-family: "autumnChant";
+  text-transform: lowercase;
+} */
 #leftside {
 
   color: black;
@@ -374,7 +383,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 80px;
+    font-size: 50px;
   }
   .masthead .intro-body  {
     font-size: 22px;
